@@ -15,5 +15,12 @@ pipeline {
                 echo 'Testing...'
             }
         }
+        stage ('Deploy'){
+            steps {
+                echo 'Deploying...'
+                sh 'cd target/'
+                sh 'java -jar jenkinstest-0.0.1-SNAPSHOT.jar'
+            }
+        }
     }
 }

@@ -18,10 +18,7 @@ pipeline {
         stage ('Deploy'){
             steps {
                 echo 'Deploying...'
-                sh 'ls -la'
-                sh 'pwd'
-                sh 'cd target/'
-                sh 'java -jar *s.jar'
+                sh 'java -jar target/jenkinstest-0.0.1-SNAPSHOT.jar'
             }
         }
     }

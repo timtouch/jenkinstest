@@ -8,7 +8,11 @@ eureka:
   server:
     enable-self-preservation: false
 
-endpoints:
-  shutdown:
-    sensitive: false
-    enabled: true
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: shutdown

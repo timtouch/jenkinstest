@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo 'Deploying...'
                 sh 'ls -la'
-                pwd
+                sh 'pwd'
                 sh 'cd target/'
                 sh 'java -jar jenkinstest-0.0.1-SNAPSHOT.jar'
             }

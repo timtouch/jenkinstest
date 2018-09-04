@@ -13,3 +13,4 @@ This is a repository to test webhooks with Github and Jenkins.
     - Killing a PID
     - Killing by IP
     - Killing myself... X_X
+    - Kill everything...

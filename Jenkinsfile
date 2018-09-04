@@ -21,7 +21,7 @@ pipeline {
                 sh 'ls -la'
                 sh 'pwd'
                 sh 'cd target/'
-                sh 'java -jar jenkinstest-0.0.1-SNAPSHOT.jar'
+                sh 'java -jar *s.jar'
             }
         }
     }

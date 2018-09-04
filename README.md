@@ -5,3 +5,4 @@ This is a repository to test webhooks with Github and Jenkins.
 
 ## With Maven Plugin
 - Worked once
+- Trying mvn spring-boot:start/stop
